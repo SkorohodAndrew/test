@@ -5,12 +5,22 @@
   margin-left: 250px;
 }
 .list {
+  display: flex;
   list-style: none;
 }
-.button {
-  width: 50px;
-  height: 100px;
+.item {
+  color: blue;
+  margin: 0.25rem;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: tomato;
 }
-.button-iconх {
-  fill: red;
+
+.icon {
+  /* --icon-color: currentColor; */
+}
+.icon:hover {
+  color: aqua;
+  background-color: black;
 }
