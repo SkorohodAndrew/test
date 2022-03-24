@@ -1,26 +1,32 @@
 .container {
-  width: 1000px;
+  width: 600px;
   height: 100px;
   border: 5px solid rebeccapurple;
   margin-left: 250px;
 }
 .list {
-  display: flex;
   list-style: none;
 }
-.item {
-  color: blue;
-  margin: 0.25rem;
-  display: block;
-  padding: 0.5rem;
-  border-radius: 50%;
-  background-color: tomato;
+.actions {
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
-.icon {
-  /* --icon-color: currentColor; */
+.item {
+  margin-right: 10px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-content: center;
+  background-color: red;
+  fill: rgb(109, 153, 51);
 }
-.icon:hover {
-  color: aqua;
-  background-color: black;
+/* .media-icon {
+  fill: currentColor;
+} */
+.item:hover {
+  fill: black;
+  background-color: blue;
 }
