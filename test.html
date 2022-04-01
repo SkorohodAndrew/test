@@ -19,21 +19,54 @@
     <ul class="foto list">
         <div class="foto-chek">
         <li class="foto-list">
-            <img class="icon" src="./icon/text.jpg" alt="печатает текс" width="200" height="150" />
-            <p class="text"> Lorem ipsum dolor sit amet</p>
+            <div class="foto-info"></div>
+            <img class="icon" src="./icon/text.jpg" alt="печатает текс" width="370" height="294" />
+            <P class="text">Lorem ipsum dolor sit amet
+            </P>
+            </div>
         </li>
         </div>
-        <div class="foto-chek">
+        <!-- <div class="foto-chek">
         <li class="foto-list">
-            <img class="icon" src="./icon/text.jpg" alt="печатает текс" width="200" height="150"/>
+            <img class="icon" src="./icon/text.jpg" alt="печатает текс" width="370" height="294"/>
         </li>
-        </div>
+        </div> -->
     </ul>
-
-  
-
 </div>
 </div>
 
+
+
+
+
+<!-- <div class="container">
+    <button data-modal-open>okno</button>
+</div> -->
+
+<!-- <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fugit quo, quia praesentium aliquam illo! Et, consequuntur esse! Nemo aliquam perspiciatis voluptas suscipit exercitationem rerum dicta aperiam explicabo deleniti est?</p>
+        <button class="modal-close" data-modal-close>X</button>
+    </div>
+</div>
+
+
+
+<script src="/js/modal.js">
+    (() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-modal-open]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
+  };
+
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();
+</script> -->
 </body>
 </html>
